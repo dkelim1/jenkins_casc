@@ -56,7 +56,7 @@ jenkins:
         slaveConnectTimeout: 100
         slaveConnectTimeoutStr: "100"
         yamlMergeStrategy: "override"
-  - kubernetes-uat:
+  - kubernetes:
       containerCap: 10
       containerCapStr: "10"
       credentialsId: "svcuat"
