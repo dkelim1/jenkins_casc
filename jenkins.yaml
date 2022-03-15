@@ -13,12 +13,12 @@ credentials:
           secret: "{AQAAABAAAAAwzUeqvaiymnGykJpkt6al/d+gRt4vJyUJ8S57DwYlnqGiO7rexHqd2bjPFCmyyI2Nso1vEV2/NYKogsRRYFOUgw==}"
       - usernamePassword:
           id: "dockerhub"
-          password: "{AQAAABAAAAAQ3VxzNpdDjZSJg5aPlX21v7V2JreyO5AevyzLEHiHfHw=}"
+          password: "{AQAAABAAAAAQposbaCUFyWbnmroBOXp93Dmhe/yx0sS3fhfVxJk1Nmg=}"
           scope: GLOBAL
           username: "dkelim1"
       - usernamePassword:
           id: "33bebd4e-5ece-499a-8d28-5e1700202918"
-          password: "{AQAAABAAAAAQOcigzB7aYqXvOorpkhFPk+31X5xDJhc9qUtdHo6Eers=}"
+          password: "{AQAAABAAAAAQhRw7c4q2Cd2+SRAQL4HqUFXIi8zau97x4wJac+Fpqzw=}"
           scope: GLOBAL
           username: "dkelim1"
       - x509ClientCert:
@@ -80,6 +80,59 @@ credentials:
           id: "svcdev"
           scope: GLOBAL
           secret: "{AQAAABAAAAOAGzFBVr5T7V7bZLZ4HmSdOsmsmsTxtt1D64S3nP4QoXxndUcS1H952xlpSHR00DW8T8hBcoDC7vXk/DJxPQLmyay0RiJh6WIRZWiHgT3C4UwLVs74yjlkDutP7O3c8z6VVyXqbAvW86n0vT6AM8mUm7SuxXs+N4n1nIfRRWZTKCuafauSXimtZzP7rOiDw+2d8dVoti4yDR9BNTAIrdtX4tzQZjVM3NCYdNm59tmOTTm44aMDCQrWzh9fcQIa1RXp/Sr6oDBQnmONw74yTY5bmPRgmZcx8Y9WCyNsZLdwfjwICxlk0gnITcb+/T7X1nh3b9hU3jgtARV1qNNAQMJCNJwzx0ZOAvfLczYsfB7qqMqFTVizgn2X5ZvJsiJgt8wokIrOXb2Av0IoN17A5tA23/cQOeDjWLqJWBqwDM6EHl2fUjdnMHUN/7qmIJYAEV7llpelFWAbCbDDYj225erC1JA/PHQl4X1IwMLjgvpb/LtRRdXoZijr/OOuz6cZ7+/qYklUB+mlvlWh7lwF9STpCWSXLIP9TV+K0XwXvXzrqTIedPIhoD0Dt3GaqieTn20nF3xMkbFCEelC2F1BoYCbFXoBFkgRLyc/pAWu6RArnjKo1WmSx1lkwBit39PHSd9q3jQ5brcZY4r9DVI0GoZnAz0LWr7fNnnEhSBqq41IWqLurgj0+qzf7He4sctgdbZ0srRPlig77nPSD3ka89W33MpcTYnWlER78cQHHQsXwu5vU4rn3uj75GFEYVx7L5eNLpMm9XA5RnsAlBm78Eh7DZmzwgn+ao7KJ/k8g4N14pbotnwdb1Fhv7fVAI3TkqmF54F415UPf1CXM6z+lJjzk8m3S7BNbS5Kp1Iqr1xUQc1jhEky3mtRnpdL4GiJ0NRKMF46t2aR5najTatwYCa/tAJHDXH+DHqg0rGE1ja/kUpwKtTjtE/IbumWVH2zsAjimtJPbFBCt8Ol4i+G2a1VXQWzJQ4BWEIr/ClYTtHwIaJEawWAUVggBG2GiVLv46OOFmZ51r+uSKxTgQo/tpKt4iTiHmPf4Rm7lVo6Bu7v78bp57RVxwNZ0Y5dG+hLRX/YYGg3Fn/3f3US+kBRIYVHb34eeBq/f4bwTL4S9StfV5LS1ANYU/QaZBpnrxMlx9HoFdxRQfDyCej/sO90/hNUhhWk3j6Xf0pqERFv/pfpuxCi0KNQ0zxzFocSSYNOUUTT}"
+      - usernamePassword:
+          id: "GIT_HUB_CREDENTIALS"
+          password: "{AQAAABAAAAAQO4EfnbFT+VAhgY8xFWrX6AzW3wiD/SrQzSCZsrzveAU=}"
+          scope: GLOBAL
+          username: "dkelim1@gmail.com"
+      - usernamePassword:
+          id: "DOCKERHUB_LOGIN"
+          password: "{AQAAABAAAAAQCZaRFQwlsMzj6FjtAHJPHTm7b7yBsqq0tdhxsXjTcPQ=}"
+          scope: GLOBAL
+          username: "dkelim1"
+      - x509ClientCert:
+          clientCertificate: |-
+            -----BEGIN CERTIFICATE-----
+            MIIDFjCCAf6gAwIBAgIQEazSWSGZqTIyU1XggVjrxzANBgkqhkiG9w0BAQsFADAV
+            MRMwEQYDVQQKEwpkZXNtb25kbGltMB4XDTIyMDMwNDEyMzgwMFoXDTI1MDIxNjEy
+            MzgwMFowITEfMB0GA1UECgwWZGVzbW9uZGxpbS48Ym9vdHN0cmFwPjCCASIwDQYJ
+            KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcsbh5PT5Iy91Gv7kHDZJivIBoLBZCv
+            tTkh29xqxTH415yf0MejzmqQRsfyLU01KP7JG3r+e52D08j/H3PXbN3K+Y423Mze
+            F917FZEtwIWo00xoq5cJaFklDv2j3p88QlQRq9uFIo8IMdR+4X1OYCzeH+APLgdJ
+            PPVxXfBM2PwwV3uKdO2+gM4xOoYj6Jyb7sCdPINoA/jlRkWf8CqILj+wr/E9Bvm+
+            KJk34yktx5oH7uCeLePEn4ccvq14Or7dxaG6TGsk/LSZ2ZJx8/EZHWjABbQ27Bpd
+            6S+f2jQS/Q8yLBYU1BLkoN4/wtG1dBIiXScoLGgUpUTvaH73fefy9b0CAwEAAaNW
+            MFQwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAwGA1UdEwEB
+            /wQCMAAwHwYDVR0jBBgwFoAU5Nb8KrdAk0e8u/RjelzKn8JnPFIwDQYJKoZIhvcN
+            AQELBQADggEBADyOpEcdevAE2nmtzgBA30Kkbq4XZzzkxs+XwfgtYC4WKzxKk8tt
+            H4ZJQrhh7Aor+QwSB2CMQB9GUJiJPMJjlSJ3OaumfjoCiceTjmKPgghm3fs3fOB0
+            Eu1MimtTPSJKChGc7asTiJb2/bWTMBZscAdbLY9xO3p5KrlMI2rlis/LRFHAi2sF
+            oWmAAlU/yr6ixyXqtNh6txY/SlsJQxLY937bCyax3e2EqUfPNNW7/uKkSn+or67J
+            jSWU8o+1ck5/MQIcGrX4sWXCeNX6ZLr/GnOv7ovIl2g1KitluKif+2j8g0RyRjPR
+            NsMLyi2D9RFvIauUGcI1tUuF0UjjLT4+KbE=
+            -----END CERTIFICATE-----
+          clientKeySecret: "{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}"
+          id: "DOCKERHOST_CRED"
+          scope: GLOBAL
+          serverCaCertificate: |-
+            -----BEGIN CERTIFICATE-----
+            MIIC9zCCAd+gAwIBAgIRAKyFIc3kDlDyehISidofp9owDQYJKoZIhvcNAQELBQAw
+            FTETMBEGA1UEChMKZGVzbW9uZGxpbTAeFw0yMjAzMDQxMjM4MDBaFw0yNTAyMTYx
+            MjM4MDBaMBUxEzARBgNVBAoTCmRlc21vbmRsaW0wggEiMA0GCSqGSIb3DQEBAQUA
+            A4IBDwAwggEKAoIBAQCQjOB9Vd1F3gjR8oQyZy044QEXk0qDlwb3OXj+V0ewA2FA
+            37cf0FnEpsX4ItjwjUGUGSWBO7ysoZwq2bdP79t47dirVS3IziMq6XahdXO6oxcq
+            3X0xyk6TCM5/IG3nEQthzwAKLqU+5gyfqEj6WD2LFdu5xjrVGegG8s3Js76rewwE
+            ysAz+0H+ld1DBgrBxNlyLfakrnkIcZWSsUNchB8xaiOR3ETHq7dUB1xQciGmYKES
+            fUGONUDIbQpgBWg5l9L5ZIwGL0/kqvoJohR3McqDFx3VGWWhiwbp/z16IlrwpYW9
+            Ez3JZbPWY5FKpQzI41kXO5wVTGbuoqsS/Ar3+AttAgMBAAGjQjBAMA4GA1UdDwEB
+            /wQEAwICrDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTk1vwqt0CTR7y79GN6
+            XMqfwmc8UjANBgkqhkiG9w0BAQsFAAOCAQEAgur6ib0HOqVD7v4bsijvJmpwtj7S
+            2HQt0VDqQspNv+5bVzYc1bLckmBgPfT0Ilg5WmKO2dL4bfnBKc/QKNQRlkiQVT75
+            RXUStXjHSHM+A4IpZulXj6JQxoA8MKChdRSZEIW//Zse3S7SXLjQYM93jhDpkwFg
+            R6xZXSnJEMzctw/ZEXvRhDn+xZ9o8DDiOClDKOLFsr/Fuod6Y2LUr/FbWNwByQY8
+            uV7PNLu1c0E51+QL2AuUQVvCqm1W4H5DqF0Te2pYik4Ml3TgAmQDifmEfk2UnN0y
+            mOzrNJQCuiR6TpIPMOX0cO/hjo2wNjpYAeqJHoGV+Z+izu7G05oDZNEAUg==
+            -----END CERTIFICATE-----
 jenkins:
   agentProtocols:
   - "JNLP4-connect"
@@ -123,7 +176,7 @@ jenkins:
         id: "1d5e7358aa57e8d8fb5290164936179288c8018247360a8e6c5bbd48e05cbb40"
         label: "jenkins-jenkins-agent"
         name: "default"
-        nodeUsageMode: "NORMAL"
+        nodeUsageMode: NORMAL
         podRetention: "never"
         serviceAccount: "default"
         slaveConnectTimeout: 100
@@ -142,11 +195,45 @@ jenkins:
         value: "dev"
       serverUrl: "https://kubernetes.default"
       templates:
-      - id: "96991dc0-f52d-4514-86a8-9c59bd68a398"
-        label: "testing"
-        name: "dev-pod"
+      - containers:
+        - args: "999999"
+          command: "sleep"
+          image: "dtzar/helm-kubectl"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "helm-dev"
+          privileged: true
+          runAsGroup: "0"
+          runAsUser: "0"
+          ttyEnabled: true
+          workingDir: "/home/jenkins/agent"
+        id: "bb02bdc1-f90d-4aaa-a18b-ba8344e35a0d"
+        label: "helm-dev"
+        name: "helm-dev"
         namespace: "dev"
+        nodeProperties:
+        - toolLocation:
+            locations:
+            - home: "/git"
+              key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+        runAsGroup: "0"
+        runAsUser: "0"
+        serviceAccount: "svcdev"
+        supplementalGroups: "1000"
         yamlMergeStrategy: "override"
+  - docker:
+      dockerApi:
+        connectTimeout: 60
+        dockerHost:
+          credentialsId: "DOCKERHOST_CRED"
+          uri: "tcp://192.168.59.102:2376"
+        readTimeout: 60
+      exposeDockerHost: true
+      name: "docker"
   crumbIssuer:
     standard:
       excludeClientIPFromCrumb: true
@@ -155,8 +242,8 @@ jenkins:
   - "hudson.diagnosis.ReverseProxySetupMonitor"
   labelAtoms:
   - name: "built-in"
+  - name: "helm-dev"
   - name: "jenkins-jenkins-agent"
-  - name: "testing"
   markupFormatter: "plainText"
   mode: NORMAL
   myViewsTabBar: "standard"
