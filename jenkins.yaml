@@ -215,11 +215,6 @@ jenkins:
         label: "helm-dev"
         name: "helm-dev"
         namespace: "dev"
-        nodeProperties:
-        - toolLocation:
-            locations:
-            - home: "/git"
-              key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
         runAsGroup: "0"
         runAsUser: "0"
         serviceAccount: "svcdev"
