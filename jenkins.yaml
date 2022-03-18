@@ -13,12 +13,12 @@ credentials:
           secret: "{AQAAABAAAAAwzUeqvaiymnGykJpkt6al/d+gRt4vJyUJ8S57DwYlnqGiO7rexHqd2bjPFCmyyI2Nso1vEV2/NYKogsRRYFOUgw==}"
       - usernamePassword:
           id: "dockerhub"
-          password: "{AQAAABAAAAAQposbaCUFyWbnmroBOXp93Dmhe/yx0sS3fhfVxJk1Nmg=}"
+          password: "{AQAAABAAAAAQMqoRrxSflP2th9z3AW5niVhBzyjGln4h4G6uhAx4IQ0=}"
           scope: GLOBAL
           username: "dkelim1"
       - usernamePassword:
           id: "33bebd4e-5ece-499a-8d28-5e1700202918"
-          password: "{AQAAABAAAAAQhRw7c4q2Cd2+SRAQL4HqUFXIi8zau97x4wJac+Fpqzw=}"
+          password: "{AQAAABAAAAAQH2eWHW7hdxExMQ642uRnn2NZ0NGtJJZMBS4LFOt7APY=}"
           scope: GLOBAL
           username: "dkelim1"
       - x509ClientCert:
@@ -82,12 +82,12 @@ credentials:
           secret: "{AQAAABAAAAOAGzFBVr5T7V7bZLZ4HmSdOsmsmsTxtt1D64S3nP4QoXxndUcS1H952xlpSHR00DW8T8hBcoDC7vXk/DJxPQLmyay0RiJh6WIRZWiHgT3C4UwLVs74yjlkDutP7O3c8z6VVyXqbAvW86n0vT6AM8mUm7SuxXs+N4n1nIfRRWZTKCuafauSXimtZzP7rOiDw+2d8dVoti4yDR9BNTAIrdtX4tzQZjVM3NCYdNm59tmOTTm44aMDCQrWzh9fcQIa1RXp/Sr6oDBQnmONw74yTY5bmPRgmZcx8Y9WCyNsZLdwfjwICxlk0gnITcb+/T7X1nh3b9hU3jgtARV1qNNAQMJCNJwzx0ZOAvfLczYsfB7qqMqFTVizgn2X5ZvJsiJgt8wokIrOXb2Av0IoN17A5tA23/cQOeDjWLqJWBqwDM6EHl2fUjdnMHUN/7qmIJYAEV7llpelFWAbCbDDYj225erC1JA/PHQl4X1IwMLjgvpb/LtRRdXoZijr/OOuz6cZ7+/qYklUB+mlvlWh7lwF9STpCWSXLIP9TV+K0XwXvXzrqTIedPIhoD0Dt3GaqieTn20nF3xMkbFCEelC2F1BoYCbFXoBFkgRLyc/pAWu6RArnjKo1WmSx1lkwBit39PHSd9q3jQ5brcZY4r9DVI0GoZnAz0LWr7fNnnEhSBqq41IWqLurgj0+qzf7He4sctgdbZ0srRPlig77nPSD3ka89W33MpcTYnWlER78cQHHQsXwu5vU4rn3uj75GFEYVx7L5eNLpMm9XA5RnsAlBm78Eh7DZmzwgn+ao7KJ/k8g4N14pbotnwdb1Fhv7fVAI3TkqmF54F415UPf1CXM6z+lJjzk8m3S7BNbS5Kp1Iqr1xUQc1jhEky3mtRnpdL4GiJ0NRKMF46t2aR5najTatwYCa/tAJHDXH+DHqg0rGE1ja/kUpwKtTjtE/IbumWVH2zsAjimtJPbFBCt8Ol4i+G2a1VXQWzJQ4BWEIr/ClYTtHwIaJEawWAUVggBG2GiVLv46OOFmZ51r+uSKxTgQo/tpKt4iTiHmPf4Rm7lVo6Bu7v78bp57RVxwNZ0Y5dG+hLRX/YYGg3Fn/3f3US+kBRIYVHb34eeBq/f4bwTL4S9StfV5LS1ANYU/QaZBpnrxMlx9HoFdxRQfDyCej/sO90/hNUhhWk3j6Xf0pqERFv/pfpuxCi0KNQ0zxzFocSSYNOUUTT}"
       - usernamePassword:
           id: "GIT_HUB_CREDENTIALS"
-          password: "{AQAAABAAAAAQO4EfnbFT+VAhgY8xFWrX6AzW3wiD/SrQzSCZsrzveAU=}"
+          password: "{AQAAABAAAAAQmnPegrhxacFsrDKz0/pGBbewZkR5ubf+fvnkUHwOvxM=}"
           scope: GLOBAL
           username: "dkelim1@gmail.com"
       - usernamePassword:
           id: "DOCKERHUB_LOGIN"
-          password: "{AQAAABAAAAAQCZaRFQwlsMzj6FjtAHJPHTm7b7yBsqq0tdhxsXjTcPQ=}"
+          password: "{AQAAABAAAAAQoLua15tJv0CrVFz9Lrv7D8wrTL3U5yyyIrwYN7A/a5I=}"
           scope: GLOBAL
           username: "dkelim1"
       - x509ClientCert:
@@ -176,7 +176,7 @@ jenkins:
         id: "1d5e7358aa57e8d8fb5290164936179288c8018247360a8e6c5bbd48e05cbb40"
         label: "jenkins-jenkins-agent"
         name: "default"
-        nodeUsageMode: NORMAL
+        nodeUsageMode: "NORMAL"
         podRetention: "never"
         serviceAccount: "default"
         slaveConnectTimeout: 100
@@ -234,6 +234,18 @@ jenkins:
         readTimeout: 60
       exposeDockerHost: true
       name: "docker"
+      templates:
+      - connector: "attach"
+        dockerTemplateBase:
+          cpuPeriod: 0
+          cpuQuota: 0
+          image: "jenkins/slave"
+        instanceCapStr: "10"
+        labelString: "slave"
+        name: "Jenkins Slave"
+        pullStrategy: PULL_ALWAYS
+        pullTimeout: 300
+        remoteFs: "/home/jenkins/agent"
   crumbIssuer:
     standard:
       excludeClientIPFromCrumb: true
@@ -244,6 +256,7 @@ jenkins:
   - name: "built-in"
   - name: "helm-dev"
   - name: "jenkins-jenkins-agent"
+  - name: "slave"
   markupFormatter: "plainText"
   mode: NORMAL
   myViewsTabBar: "standard"
