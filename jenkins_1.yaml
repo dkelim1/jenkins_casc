@@ -316,8 +316,6 @@ jenkins:
         name: "Jenkins Admin"
         properties:
         - "myView"
-        - "timezone"
-        - "apiToken"
         - "mailer"
         - preferredProvider:
             providerId: "default"
@@ -325,8 +323,6 @@ jenkins:
         name: "Desmond"
         properties:
         - "myView"
-        - "timezone"
-        - "apiToken"
         - mailer:
             emailAddress: "dkelim1@gmail.com"
         - preferredProvider:
