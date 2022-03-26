@@ -315,14 +315,14 @@ jenkins:
       - id: "admin"
         name: "Jenkins Admin"
         properties:
-        - "myView"
+        - "apiToken"
         - "mailer"
         - preferredProvider:
             providerId: "default"
       - id: "ddl"
         name: "Desmond"
         properties:
-        - "myView"
+        - "apiToken"
         - mailer:
             emailAddress: "dkelim1@gmail.com"
         - preferredProvider:
