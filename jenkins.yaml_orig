@@ -1,0 +1,304 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - string:
+          id: "svcdev"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAOAmCinVNr4QbdblWIoZ4t0Klwwj+GqftDSgr3HyZpcIDtpcCeFIKX0rXfX/Ul7JrjamyTxst9uFnWCB7vn3QldZ9y9ArUYqo1NvCcNmBwbveaA12X+EHrJFIMsmfg8+vlm0rL+/A2WN9SJKLCAsA24oZ1wsi3mDdoOGS6wG3YW2A/FOfaucNMCKMXv3FNaKZfwaVzWr6LkslhZJUGp00DdNrsJXOcC1Rs2y8sgKCe0g5u+rddR3QwnaKOsBJJ5OmqGQCtaTUJqSMGO3tM22jqRq3qnc2uVFZXmSEqFv+NOXqwQEQx2qL1SJUlp6epu4tRrSlXLuL9Gh69ROkz5UV3cmyJ5skNgWbaomwmanIMWV0Dva+VdhDUvcBI37dcDc1ZJLzTARmouzGEh5RyyI9hI0PHE5PwnYqcb/tTYxCo0K59uR7cRWw8UXRhKy7XIjMX1+xjtCMZMnLbDcDCEdI0Xzzi7uwRutHBnu6XpyBpv2y4l8fPN3IT+GhRthqSgi1kxO9q3G8RF+S2ZyjcWRLH4RAogaqPr3Q+46OfOLfX9nYcQlSnS2PeGS4O1S9ZjH2fRL5R/SEEufjB6L2811N4h3KhgLRuvCzPR1/FFyOPPxaL7Zkc7XPhFxtqN+Ru7acRMr/xtTH4IyMQHsP8cvUJrGCVI6AQVukrMddkMpWuVKc+MlIj+FB91EgaRG1YX2P8UBYjjbo/yOdEeNyaKViqfLm7xxxlb4x3li+OCq21A8jcggleloUOpOcpkMpQf9VGf2+NptKJDq5r9Ymg1E1lC8XwsvqnYdR/ZPF5Pn+Tr9Bexuqmssd4oNBRrOK7KS1LN43TF8PAmzGN3Hyy9Z/WGfye+6LtWDUrMN6oMVofJjn/sfuONJ3mHn/ZCc5q7eUz+j0XFvXfA0/u09ty5hFhFqJXwEqfWDZl2hLAu3ymboRSL52mjdOi7QrzCZAFUy1HMwm+Wy0h0siqHyxpVF55PLVbtFHeR495Plx+hoMjrS3P27gDO7UltZiJvr/UzhKpOX4mYAhyVOm+BlZZEeERhnBdKCy2DJgFy22VhxReRVTSZ43+zyz4pM2o8MdeqXorS6Uy20jJnmbA7jqNUhGBccofWVSOYHUhkjignYXhDCa8sEK5TC9fTphqQHBXvxzi1WlOe3twdUjn03rHz5oUGd3tvOv6Yte3UNtqTTrF/14weJwyewFo1X3btwo5W3y55}"
+      - usernamePassword:
+          id: "GIT_HUB_CREDENTIALS"
+          password: "{AQAAABAAAABAluNbK1hHa06TUmZmwc60kPn6Gc987ofy/+rcLsTKLj24T8WXLCjc89V/SAvo5CK/5SM76aTVKyl6GLeTFhBBVzRATj1Pm2PpInvC9qM+JDY=}"
+          scope: GLOBAL
+          username: "dkelim1@gmail.com"
+      - usernamePassword:
+          id: "DOCKERHUB_LOGIN"
+          password: "{AQAAABAAAABAjCVAy99w/FgLFyscknx+jwFkNBUZzPZuXV+aKV2I2Xca9RXETNbfDhBw5drihFWqAWUSYYORpeQ4wI1Uov/cZAG0C6eYsDSIgPB5NwnDycQ=}"
+          scope: GLOBAL
+          username: "dkelim1"
+      - string:
+          id: "jenkins"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAOQ+tYt8lKbdRSOcgmFtwytLywRd1t1/kgPNjczKIGCRN567pxp57UTj0yDm3iTDbXzsFRTi4csWnyBUTfy4eNSgCCPR2kCErEBVQL2MKPmihl7GZt7MpyGHmYcv5Hgji0fx5+EqEKBn2AvZC/RjCRTyvdAxHqhDK2L3bTnnGQ2b69rvOZGoyU6Vd1pmkjuQr4/NPM+6x9p/wrospAsCeAzUAndTs3/CUsfooizD1amEnYOXLuoBSVEaUTunuAEGABOk2A7bBbRSWk48lMbZoGEd7Nfkbr2+H0eokJ4IQgzIXuRYm1/LpQxYTiz5PO8o/GTFRJLcfW0BTd+BVEl2HA0ga4zqU+ONp78PpfnYnYHnFtIpnBr+ou3omuLkaS2XCMOrbPyDCVeSvEx+Tr8IOFNtuZ2ykvAL0HTXh1VhyFkNaS1yAYTcJCDmWfXmnNIH5dZDuUWsX3L5ioX2Xxm1arY+6WW5Wu2N4+3eL+T8TODXgqtLUN4rFeKK9Jw3UJk/K5sNZTStOrtkUuB/QV9YSPhqbP5Hy+yDMCTBFTDoY+TkEgrwWAorh4x158ocMEXgUvPh0NFqG5em3Pz7t15+eJyQbyQBgEQkOSGsOfM50fq2gGQvIzTXUShxz44kmCfAR5Kz0kJtWaGt/o3xIT56XhFo9dbnvoxHLNd9GnXo103/d2jQhtv+lR1QK6zHiSPDCaUFsocaHuEuyerZJSNRG7KqxV1pPPkkdzJnmdQitoGaVmFmzc7c3umMPXK3nL3acT/DKRmdQmIlpjadwDtUCgsL/8c4kZMUHBLJaI/c0obZspbnV2Y290DIjESz4GnTNxGWqN63VGGjBcb4SrhsgIDNqRyvFDuW7UrMmas817o33ngPcFZEkUdCejbjA28BPs+vmxcCzWAZJGrMc0ScyNDa2Ydw5D69qCB77TaRtk00ozNF0UOGc9VcIkSkV7mK5QXNmfW3bSATIEvIval5/S9iOuVEzv9Tfot7B/uKajRbEMVrs27n4SagTfCPZjr0GbRtMIbOkq35wCTkPUTyBSd52sGzMNhGGoZsvuVI/lH5BuFf6xzo1kaIQJXMTgNuCpC78aFRsQh/8BbmFl0w2Zi4c7UyzZIWE15UV0QSwGO9C2zselUVZnx6XyGh2OuZ7QG76pn1qufExsi/IVc3JS1HqJ0UrBKtiE7rn8AqWvFf0UtOJY8iknmNQAZrKVAZQU6VeSof0gcv5iXMUpgY5jbNQ==}"
+      - x509ClientCert:
+          clientCertificate: |-
+            -----BEGIN CERTIFICATE-----
+            MIIDFjCCAf6gAwIBAgIQEazSWSGZqTIyU1XggVjrxzANBgkqhkiG9w0BAQsFADAV
+            MRMwEQYDVQQKEwpkZXNtb25kbGltMB4XDTIyMDMwNDEyMzgwMFoXDTI1MDIxNjEy
+            MzgwMFowITEfMB0GA1UECgwWZGVzbW9uZGxpbS48Ym9vdHN0cmFwPjCCASIwDQYJ
+            KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcsbh5PT5Iy91Gv7kHDZJivIBoLBZCv
+            tTkh29xqxTH415yf0MejzmqQRsfyLU01KP7JG3r+e52D08j/H3PXbN3K+Y423Mze
+            F917FZEtwIWo00xoq5cJaFklDv2j3p88QlQRq9uFIo8IMdR+4X1OYCzeH+APLgdJ
+            PPVxXfBM2PwwV3uKdO2+gM4xOoYj6Jyb7sCdPINoA/jlRkWf8CqILj+wr/E9Bvm+
+            KJk34yktx5oH7uCeLePEn4ccvq14Or7dxaG6TGsk/LSZ2ZJx8/EZHWjABbQ27Bpd
+            6S+f2jQS/Q8yLBYU1BLkoN4/wtG1dBIiXScoLGgUpUTvaH73fefy9b0CAwEAAaNW
+            MFQwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAwGA1UdEwEB
+            /wQCMAAwHwYDVR0jBBgwFoAU5Nb8KrdAk0e8u/RjelzKn8JnPFIwDQYJKoZIhvcN
+            AQELBQADggEBADyOpEcdevAE2nmtzgBA30Kkbq4XZzzkxs+XwfgtYC4WKzxKk8tt
+            H4ZJQrhh7Aor+QwSB2CMQB9GUJiJPMJjlSJ3OaumfjoCiceTjmKPgghm3fs3fOB0
+            Eu1MimtTPSJKChGc7asTiJb2/bWTMBZscAdbLY9xO3p5KrlMI2rlis/LRFHAi2sF
+            oWmAAlU/yr6ixyXqtNh6txY/SlsJQxLY937bCyax3e2EqUfPNNW7/uKkSn+or67J
+            jSWU8o+1ck5/MQIcGrX4sWXCeNX6ZLr/GnOv7ovIl2g1KitluKif+2j8g0RyRjPR
+            NsMLyi2D9RFvIauUGcI1tUuF0UjjLT4+KbE=
+            -----END CERTIFICATE-----
+          clientKeySecret: "{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}"
+          id: "DOCKERHOST_LOGIN"
+          scope: GLOBAL
+          serverCaCertificate: |-
+            -----BEGIN CERTIFICATE-----
+            MIIC9zCCAd+gAwIBAgIRAKyFIc3kDlDyehISidofp9owDQYJKoZIhvcNAQELBQAw
+            FTETMBEGA1UEChMKZGVzbW9uZGxpbTAeFw0yMjAzMDQxMjM4MDBaFw0yNTAyMTYx
+            MjM4MDBaMBUxEzARBgNVBAoTCmRlc21vbmRsaW0wggEiMA0GCSqGSIb3DQEBAQUA
+            A4IBDwAwggEKAoIBAQCQjOB9Vd1F3gjR8oQyZy044QEXk0qDlwb3OXj+V0ewA2FA
+            37cf0FnEpsX4ItjwjUGUGSWBO7ysoZwq2bdP79t47dirVS3IziMq6XahdXO6oxcq
+            3X0xyk6TCM5/IG3nEQthzwAKLqU+5gyfqEj6WD2LFdu5xjrVGegG8s3Js76rewwE
+            ysAz+0H+ld1DBgrBxNlyLfakrnkIcZWSsUNchB8xaiOR3ETHq7dUB1xQciGmYKES
+            fUGONUDIbQpgBWg5l9L5ZIwGL0/kqvoJohR3McqDFx3VGWWhiwbp/z16IlrwpYW9
+            Ez3JZbPWY5FKpQzI41kXO5wVTGbuoqsS/Ar3+AttAgMBAAGjQjBAMA4GA1UdDwEB
+            /wQEAwICrDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTk1vwqt0CTR7y79GN6
+            XMqfwmc8UjANBgkqhkiG9w0BAQsFAAOCAQEAgur6ib0HOqVD7v4bsijvJmpwtj7S
+            2HQt0VDqQspNv+5bVzYc1bLckmBgPfT0Ilg5WmKO2dL4bfnBKc/QKNQRlkiQVT75
+            RXUStXjHSHM+A4IpZulXj6JQxoA8MKChdRSZEIW//Zse3S7SXLjQYM93jhDpkwFg
+            R6xZXSnJEMzctw/ZEXvRhDn+xZ9o8DDiOClDKOLFsr/Fuod6Y2LUr/FbWNwByQY8
+            uV7PNLu1c0E51+QL2AuUQVvCqm1W4H5DqF0Te2pYik4Ml3TgAmQDifmEfk2UnN0y
+            mOzrNJQCuiR6TpIPMOX0cO/hjo2wNjpYAeqJHoGV+Z+izu7G05oDZNEAUg==
+            -----END CERTIFICATE-----
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  clouds:
+  - kubernetes:
+      containerCap: 10
+      containerCapStr: "10"
+      credentialsId: "jenkins"
+      jenkinsTunnel: "jenkins-agent.jenkins.svc.cluster.local:50000"
+      jenkinsUrl: "http://jenkins.jenkins.svc.cluster.local:8080"
+      name: "kubernetes"
+      namespace: "jenkins"
+      podLabels:
+      - key: "jenkins/jenkins-jenkins-agent"
+        value: "true"
+      serverUrl: "https://kubernetes.default"
+      templates:
+      - containers:
+        - args: "^${computer.jnlpmac} ^${computer.name}"
+          command: "sleep"
+          envVars:
+          - envVar:
+              key: "JENKINS_URL"
+              value: "http://jenkins.jenkins.svc.cluster.local:8080/"
+          image: "jenkins/inbound-agent:4.11.2-4"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jnlp"
+          resourceLimitCpu: "512m"
+          resourceLimitMemory: "512Mi"
+          resourceRequestCpu: "512m"
+          resourceRequestMemory: "512Mi"
+          workingDir: "/home/jenkins/agent"
+        id: "1d5e7358aa57e8d8fb5290164936179288c8018247360a8e6c5bbd48e05cbb40"
+        label: "jenkins-jenkins-agent"
+        name: "default"
+        nodeUsageMode: "NORMAL"
+        podRetention: "never"
+        serviceAccount: "default"
+        slaveConnectTimeout: 100
+        slaveConnectTimeoutStr: "100"
+        yamlMergeStrategy: "override"
+  - kubernetes:
+      containerCap: 10
+      containerCapStr: "10"
+      credentialsId: "svcdev"
+      jenkinsTunnel: "jenkins-agent.jenkins.svc.cluster.local:50000"
+      jenkinsUrl: "http://jenkins.jenkins.svc.cluster.local:8080"
+      name: "kubernetes-dev"
+      namespace: "dev"
+      podLabels:
+      - key: "env"
+        value: "dev"
+      serverUrl: "https://kubernetes.default"
+      templates:
+      - containers:
+        - args: "999999"
+          command: "sleep"
+          image: "dtzar/helm-kubectl"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "helm-dev"
+          privileged: true
+          runAsGroup: "0"
+          runAsUser: "0"
+          ttyEnabled: true
+          workingDir: "/home/jenkins/agent"
+        id: "bb02bdc1-f90d-4aaa-a18b-ba8344e35a0d"
+        label: "helm-dev"
+        name: "helm-dev"
+        namespace: "dev"
+        runAsGroup: "0"
+        runAsUser: "0"
+        serviceAccount: "svcdev"
+        supplementalGroups: "1000"
+        yamlMergeStrategy: "override"
+  - docker:
+      dockerApi:
+        connectTimeout: 60
+        dockerHost:
+          credentialsId: "DOCKERHOST_LOGIN"
+          uri: "tcp://192.168.59.103:2376"
+        readTimeout: 60
+      exposeDockerHost: true
+      name: "docker"
+      templates:
+      - connector: "attach"
+        dockerTemplateBase:
+          cpuPeriod: 0
+          cpuQuota: 0
+          image: "jenkins/slave"
+        instanceCapStr: "10"
+        labelString: "slave"
+        name: "Jenkins Slave"
+        pullStrategy: PULL_ALWAYS
+        pullTimeout: 300
+        remoteFs: "/home/jenkins/agent"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: true
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  labelAtoms:
+  - name: "built-in"
+  - name: "helm-dev"
+  - name: "jenkins-jenkins-agent"
+  - name: "slave"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 0
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "admin"
+        name: "Jenkins Admin"
+        properties:
+        - "myView"
+        - "timezone"
+        - "apiToken"
+        - "mailer"
+        - preferredProvider:
+            providerId: "default"
+      - id: "ddl"
+        name: "Desmond"
+        properties:
+        - "myView"
+        - "timezone"
+        - "apiToken"
+        - mailer:
+            emailAddress: "dkelim1@gmail.com"
+        - preferredProvider:
+            providerId: "default"
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  sSHD:
+    port: -1
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  casCGlobalConfig:
+    configurationPath: "https://raw.githubusercontent.com/dkelim1/jenkins_casc/main/jenkins.yaml"
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    configs:
+    - credentialsId: "jenkins-integration"
+      manageHooks: false
+      name: "jenkins"
+    hookUrl: "http://jenkins:8080/github-webhook/"
+  gitSCM:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  githubPullRequests:
+    actualiseOnFactory: false
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
+    url: "http://jenkins:8080/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  pollSCM:
+    pollingThreadCount: 10
+tool:
+  dockerTool:
+    installations:
+    - name: "docker"
+      properties:
+      - installSource:
+          installers:
+          - fromDocker:
+              version: "17.09.1-ce"
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
+  nodejs:
+    installations:
+    - name: "nodejs"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "17.7.1"
+              npmPackagesRefreshHours: 72
