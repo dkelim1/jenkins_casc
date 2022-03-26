@@ -10,7 +10,7 @@ credentials:
       - string:
           id: "jenkins-integration"
           scope: GLOBAL
-          secret: "{AQAAABAAAAAwzUeqvaiymnGykJpkt6al/d+gRt4vJyUJ8S57DwYlnqGiO7rexHqd2bjPFCmyyI2Nso1vEV2/NYKogsRRYFOUgw==}"
+          secret: "{AQAAABAAAAAwSqfuPRBBwggiQxS7p3qX9L3wGsaDONMhXuhnIbHKyi3jA7GDUTMOk9Zbttwyrbl5hIa6jnq2zc1iA+dpvXqkiQ==}"
       - usernamePassword:
           id: "dockerhub"
           password: "{AQAAABAAAAAQMqoRrxSflP2th9z3AW5niVhBzyjGln4h4G6uhAx4IQ0=}"
@@ -87,7 +87,7 @@ credentials:
           username: "dkelim1@gmail.com"
       - usernamePassword:
           id: "DOCKERHUB_LOGIN"
-          password: "{AQAAABAAAAAQoLua15tJv0CrVFz9Lrv7D8wrTL3U5yyyIrwYN7A/a5I=}"
+          password: "{AQAAABAAAAAQ6vr1P8+Gp5hh15pHc4uZ/obkM9cblMO+aPAojUf/Lsg=}"
           scope: GLOBAL
           username: "dkelim1"
       - x509ClientCert:
