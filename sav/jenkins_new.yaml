@@ -371,6 +371,8 @@ jenkins:
       - id: "ddl"
         name: "Desmond"
         properties:
+        - "myView"
+        - "timezone"
         - "apiToken"
         - mailer:
             emailAddress: "dkelim1@gmail.com"
