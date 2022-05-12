@@ -360,11 +360,3 @@ tool:
           - nodeJSInstaller:
               id: "17.7.1"
               npmPackagesRefreshHours: 72
-  terraform:
-    installations:
-    - name: "terraform"
-      properties:
-      - installSource:
-          installers:
-          - terraformInstaller:
-              id: "1.1.9-linux-amd64"
