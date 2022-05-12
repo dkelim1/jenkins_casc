@@ -226,7 +226,7 @@ jenkins:
         id: "15e68c1b1edf2002fb1c9a68825c6efe17fa23ec242ac11ee566813bd3c7dee5"
         label: "jenkins-jenkins-agent"
         name: "default"
-        nodeUsageMode: NORMAL
+        nodeUsageMode: "NORMAL"
         podRetention: "never"
         serviceAccount: "default"
         slaveConnectTimeout: 100
